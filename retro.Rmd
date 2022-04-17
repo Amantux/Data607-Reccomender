@@ -1,0 +1,48 @@
+---
+title: "Slickdeals, an analysis"
+author: "AZM"
+date: "4/16/2022"
+output: 
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+---
+
+Perform a Scenario Design analysis as described below.  Consider whether it makes sense for your selected recommender system to perform scenario design twice, once for the organization (e.g. Amazon.com) and once for the organization's customers.
+Attempt to reverse engineer what you can about the site, from the site interface and any available information that you can find on the Internet or elsewhere.
+Include specific recommendations about how to improve the site's recommendation capabilities going forward. 
+
+<H1> Reccomender Systems </H1>
+
+Slickdeals is an internet deals monitoring site. It hosts a combination of deals that are both user found and sponsored. It has a basic reccomendation system so show deals that are active that may be applicable to the user. 
+
+I personally use Slickdeals a lot for monitoring power tool deals.
+
+<H1> Scenario Design </H1>
+
+Slickdeals, the recommender system
+
+  1. Target Users?
+      + The target users for slickdeals is practically any internet connected consumer. the strength of this model is that there are two classes of user; users that consume deals and users that supply them. 
+  2. User's Goals?
+      + The goals for the user of this site is to supply users with deals that they might find useful. 
+  3. How to enable user's goals?
+      + There appears to be several models at work: link tracking, cookie tracking, and the creation of user classes.
+          + Link Tracking-Practically Slickdeals monitors every link clicked & if they partner with sites, should be able to gather metrics to determine if a user actually bought the linked product
+          + cookie tracking-Every site we visit leaves cookies & there are already targeted ads on Slickdeals, indicating their access
+          + User Classes- Practically, every time you visit a deal on Slickdeals, its recorded, and assists them with building a better profile for you! In their own words "Recommendations based on deals you've viewed on Slickdeals" 
+          
+          
+<H1> Improvements </H1>
+
+I think there are two main areas for improvement for Slickdeals, the first would be to integrate in bots to monitor pricing sites like camelcamelcamel, and use chagnes in price to indicate changes in deals. 
+
+Secondly, I believe that a bot could be implemented to test user's deals to indicate if they are still valid or not, as a way to better provide feedback on the website!
+
+I'd highly advise you check it out if you are shopping for just about anything!
+
+https://slickdeals.net/
+
+
+  
